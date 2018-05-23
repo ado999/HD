@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Kostka</Database>
+    <Server>DESKTOP-TGLN36J</Server>
+    <ConnectionString>Data Source=DESKTOP-TGLN36J;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>d219ubjt5PMNixcUDv8Uq3HCLmk=23.05.2018 20:41:2223.05.2018 20:23:29</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>i2BMgw6h3pdIXgpKmA5IVJxbvMI=23.05.2018 20:25:2423.05.2018 20:25:23</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Yfscpfgd249eEkVgEWXZ7YPu1nA=23.05.2018 20:25:5223.05.2018 20:25:52</TimeStamp>
+        <ID>
+          <String>Category</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NoVzZ6418Hqjuh2PjH5LsrYQNMo=23.05.2018 21:05:0623.05.2018 20:26:19</TimeStamp>
+        <ID>
+          <String>Channel</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+Rine04JkghAA9yD6z5I/ckuaLs=23.05.2018 20:58:2223.05.2018 20:27:48</TimeStamp>
+        <ID>
+          <String>Calendar</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>erQasZng/MB6l2kpO5kRVcMkAc8=23.05.2018 20:49:4323.05.2018 20:49:43</TimeStamp>
+        <ID>
+          <String>Media Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2ChkoH7FJ8VjmjJdhbfeA/MO/Ow=23.05.2018 20:50:2823.05.2018 20:50:28</TimeStamp>
+        <ID>
+          <String>Target Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>4KqHX0WLGyZPgNipUEifHWvvcME=23.05.2018 21:28:0923.05.2018 21:06:52L6LrueoXE7/8CbgZKzB8xKKdlGQ=23.05.2018 21:06:5223.05.2018 21:06:52</TimeStamp>
+        <ID>
+          <String>Hurtownie Danych</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>uBda9Sct7pAkZXrNFx28kHW4e/w=23.05.2018 20:22:2323.05.2018 20:22:23</TimeStamp>
+      <ID>
+        <String>Kostka</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-05-23T19:28:13.26Z</LastDeployed>
+</DeploymentSnapshot>
