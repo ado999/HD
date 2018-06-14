@@ -1,0 +1,395 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="07392878-00dd-4929-b430-5ecd611ab63e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hurtownie Danych</ID>
+  <Name>Hurtownie Danych</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="1ade89fa-1c51-466d-a181-817804334aef">
+      <ID>Programme</ID>
+      <Name>Programme</Name>
+      <DimensionID>Programme</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="12d5028a-982d-48d3-a33d-76fa7a1b6991">
+          <AttributeID>Programme ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d4c2690b-f436-422b-9c93-e19f849bc104">
+          <AttributeID>Start Time</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dd5222a3-2cb2-4092-9ac1-67387ec6debc">
+          <AttributeID>Start Hour</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09092224-8e72-40b1-8465-fb6160067487">
+          <AttributeID>Media Start Hour</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d1d4917e-bfa8-4eab-8274-1e7a00fed4d1">
+          <AttributeID>Start Minute</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8dec300-9c70-412d-af79-93376539cba9">
+          <AttributeID>Start Second</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6820d55f-9679-4349-8330-c0a8025cb091">
+          <AttributeID>Duration</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05418841-a6ca-4ace-8ecf-a6dcb566b02b">
+          <AttributeID>Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e50ff3a-f7fe-4649-9e51-cc8dce82c956">
+          <AttributeID>2nd Description</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4778e409-4119-487b-b2b4-12bff85c6835">
+          <AttributeID>Channel ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8d522a8-3bb5-48b2-ae77-0b0da602bf21">
+          <AttributeID>Channel Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bcd4ca1d-cc39-4719-85ce-214bc099ae21">
+          <AttributeID>Category ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a84d99d-e98c-4869-b13e-7005d4db12b0">
+          <AttributeID>Category Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe1147ca-f3ce-408b-9426-342d929e4ac0">
+          <AttributeID>Media Group ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19c910a8-f1d0-4a2a-83d8-240fc80c0da4">
+          <AttributeID>Media Group Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c9a5a43b-5af3-4f78-b4c6-069190d46b58">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="cad46179-c009-4f11-8719-11409bf60ab1">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="ce480746-42c4-4641-9a07-b61f9e36c60e">
+          <HierarchyID>Hierarchy 1 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="47ab0b4f-c04f-47d4-a1f1-b8bb1695d376">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="6cb03ea1-9b0c-4e12-be6d-a0393696b06f">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="c4101d5e-c458-4e0c-bd4b-b518855d92f4">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b4f2f83b-e6f8-4ccd-902a-0d678c40649e">
+      <ID>Target Group</ID>
+      <Name>Target Group</Name>
+      <DimensionID>Target Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4db74042-e4aa-4ce7-a119-fa531bbe8790">
+          <AttributeID>Target Group ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca57174f-5817-45f5-a573-8725639f8349">
+          <AttributeID>Target Group Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9818b5ba-698e-4064-b504-07cd2744d53d">
+          <AttributeID>Target Group Code</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f28eba1f-55d9-4388-9992-d3c5df716db8">
+      <ID>Calendar</ID>
+      <Name>Calendar</Name>
+      <DimensionID>Calendar</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3c8724b8-e194-48e6-9ed0-e745a6601983">
+          <AttributeID>Calendar ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1f47d9a2-2c70-4515-995d-ec333c02f755">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b219d58-3f58-422b-85fd-6d6bcc7e40f5">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0deaf97a-e0b5-4425-852e-518e851b9660">
+          <AttributeID>Week Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b77fc61-5e51-4c8f-b83a-e28cc5372f09">
+          <AttributeID>Week Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d53673e-f181-4781-998c-8a55cbdd02e8">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="61ac5dfa-ca50-41cf-b330-2a7f44ba7785">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a72c3783-32bc-4003-afe5-d25c6e6a92db">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b52f897-46c4-4ec2-9256-4598f5ad9af6">
+          <AttributeID>Week Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b68250b3-c0fb-4269-9815-4ddfeb137f5e">
+          <AttributeID>Day Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7fb00170-55ee-440a-a0c4-36588230bb0e">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="1a487042-d377-4839-925c-e22191158144">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="16303837-0382-4f33-a246-9c253b0d301b">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="18c4a0f6-a136-429e-85c9-b8eca63f115e">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="aaebad90-71f6-41fd-a706-671a3d0e0f51">
+      <ID>Media Calendar</ID>
+      <Name>Media Calendar</Name>
+      <DimensionID>Media Calendar</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="aa7fdf2f-9e29-4f6f-9b9a-b8215de900e5">
+          <AttributeID>Media Calendar ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6aab4003-96e0-4b61-b672-a901bd917d6d">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52b2adaf-ab62-4281-8530-80edadfa04ab">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02101ba4-24c7-443b-a513-448ab3c87d19">
+          <AttributeID>Week Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7595743e-e42a-4771-b9e3-fd56fd7bd8dd">
+          <AttributeID>Week Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f29d70c0-0539-4ace-8e6d-286762f38f2f">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f6bcf37-1270-4950-a042-8bfa073ff233">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="28bd428b-b386-42a5-b9d0-4a4b294e84e4">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80e2b199-ad59-4ab2-90b7-de8167b0c6c2">
+          <AttributeID>Week Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1354017-350f-4d9b-9173-20645b839c18">
+          <AttributeID>Day Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80e3423c-2dec-4516-9174-955d7301c996">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6c9508b5-90db-41d0-a347-8ba2b46e8015">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="3fd134e5-1930-42af-9611-a60ff74dd4b8">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="af12b354-c957-413a-84ba-215621f879cb">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="f872944b-c159-431c-9098-7cccaab8b19e">
+      <ID>Fact</ID>
+      <Name>Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c721e6c1-10d7-4805-9f56-7e7d991b35b4">
+          <ID>Emission ID</ID>
+          <Name>Emission ID</Name>
+          <Source dwd:design-time-name="b27f3681-c2dd-41ed-8709-f763e0409ffe">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="06677a98-622f-4222-97c5-fdfb3c9cef94">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>EmissionID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="00730e01-e360-4bfb-95fd-e2c36eb9953b">
+          <ID>AMRp</ID>
+          <Name>AMRp</Name>
+          <Source dwd:design-time-name="addf5664-6f7f-4914-a84b-d90ca3f95129">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cfe151fe-60ab-44f4-b748-e9c15a67e47e">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>AMR</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ac190fba-7e1d-4e8b-bc56-de47af265440">
+          <ID>AMR</ID>
+          <Name>AMR</Name>
+          <Source dwd:design-time-name="52d3f807-e970-495e-8500-4aae33cd06c6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6db563db-f4ab-4973-97ba-30e15103123a">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>AMR_x0025_</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c8ec5611-f31c-43ed-8998-9f03929d7799">
+          <ID>SHR</ID>
+          <Name>SHR</Name>
+          <Source dwd:design-time-name="0bb546af-5ae4-40a6-a94f-ed60621b44b2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e07800ce-8c89-4c36-9334-f04a4a73351a">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>SHR_x0025_</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="21de5446-fa43-492e-9b6e-13a9c7677399">
+          <ID>RCHp</ID>
+          <Name>RCHp</Name>
+          <Source dwd:design-time-name="1513daa5-bdec-4aa5-bfd1-110492146712">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d8dd9ae-b1b9-4b0a-9c1e-1a6b03f342e3">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>RCH_x0025_</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b0d4c897-a562-4ebd-b525-71bcbaf636a8">
+          <ID>RCH</ID>
+          <Name>RCH</Name>
+          <Source dwd:design-time-name="1c5a18cd-f43a-4fc2-b189-0f01afe71e00">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1dd8128a-4704-4793-85e7-2ca040385075">
+              <TableID>dbo_Fact</TableID>
+              <ColumnID>RCH</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ed1764ab-fccd-4aad-bcd3-aa34f2d0e601">
+          <CubeDimensionID>Calendar</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b5b7f359-1cb1-4720-ba65-1f515ab5344c">
+              <AttributeID>Calendar ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6ba1474e-3915-40c4-986f-6c442d0ca68b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9f1d8ab4-0a4d-470a-8c7f-57bd764d944a">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>DateID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f4ab9c9d-c546-436c-8005-aa7f14349db8">
+          <CubeDimensionID>Programme</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="639290fc-02a8-4a0e-a59d-d24c435b6d38">
+              <AttributeID>Programme ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="23688b46-f6f8-4f46-96e0-67a03eb0656f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d0d9960-35a8-4e90-b63f-eab851019bde">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>ProgrammeID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4b287ea7-a546-4b60-a882-0d0a4c3cedbd">
+          <CubeDimensionID>Target Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bf6cbc9b-2d2e-4288-a6ca-9550a8bf8152">
+              <AttributeID>Target Group ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fe945ef7-5ab1-441c-9e8e-c1163521334d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dbd5de48-964f-440e-bb14-41f8372d7ba4">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>TargetGroupID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4c7caf87-f89c-44c2-8bc6-0d0970a88129">
+          <CubeDimensionID>Media Calendar</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b8897efa-fb91-4acd-a56d-ee5fbaff300b">
+              <AttributeID>Media Calendar ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="73d970c0-e917-4f94-9760-f72bf15b90ac">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="caff928d-20b3-42d6-8290-729f2d7202b0">
+                    <TableID>dbo_Fact</TableID>
+                    <ColumnID>MediaDateID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="559f261b-135e-42cc-901d-13259f4836f7">
+    <DataSourceViewID>Hurtownie Danych</DataSourceViewID>
+  </Source>
+</Cube>
